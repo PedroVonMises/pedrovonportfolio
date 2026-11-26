@@ -1,0 +1,25 @@
+# Dependencies, env, logs, OS & deploy artifacts
+node_modules/
+.env
+.env.*
+.vercel/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local archive, internal specs & tooling
+archive/
+re-evidence/
+ARCHITECTURE.md
+docs/
+scripts/extract-assets.mjs
+scripts/reconstruct-site.mjs
+scripts/run-rea-diffs.mjs
+scripts/run-rea-live-capture.mjs
+scripts/run-rea-static-views.mjs
+scripts/verify-parity.mjs
+
+# Legacy redirect stubs not part of the public repo
+site/pt/work/octo-health/
+site/pt/work/search/
+site/pt/tools/palette/

@@ -1,0 +1,14 @@
+{
+  "name": "pedrovonportfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio de um engenheiro que desenha, e um designer que programa.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs"
+  }
+}
