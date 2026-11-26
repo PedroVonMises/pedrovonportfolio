@@ -512,13 +512,8 @@ main>section:first-child {
 
 
 .nav-logo img,.nav-logo svg {
-  height:1.75rem;
+  height:2rem;
   width:auto
-}
-
-
-.nav-logo svg path {
-  fill:currentcolor
 }
 
 
@@ -806,11 +801,6 @@ main>section:first-child {
 .site-header__logo svg {
   height:2.25rem;
   width:auto
-}
-
-
-.site-header__logo:not(.site-header__logo--tool) svg path {
-  fill:currentcolor
 }
 
 
